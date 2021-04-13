@@ -53,7 +53,8 @@ Output:
 */
 
 export function getAllDairy(arr) {
-    return [];
+    const dairy = arr.filter(toxic => toxic.category === 'dairy')
+    return dairy;
 }
 
 /*
